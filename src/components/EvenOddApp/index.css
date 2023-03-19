@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 40px;
+}
+.even-odd-content {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 300;
+  color: #0f172a;
+}
+.button {
+  height: 40px;
+  min-width: 150px;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 300;
+  color: #1e293b;
+  border-radius: 8px;
+  border-width: 0px;
+  margin: 20px;
+}
+.condition {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+}
